@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="946px" height="725px" viewBox="0 0 946 725" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>contact-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50.123006%" x2="99.9971732%" y2="50.123006%" id="linearGradient-1">
+            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="19.6491475" y="39.1669834" width="586.78" height="313.91"></rect>
+        <linearGradient x1="37.159784%" y1="99.8019042%" x2="56.7300121%" y2="0.640049327%" id="linearGradient-4">
+            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.9993196%" y1="100%" x2="49.9993196%" y2="0%" id="linearGradient-5">
+            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.9962628%" y1="100%" x2="49.9962628%" y2="0%" id="linearGradient-6">
+            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="contact-3">
+            <rect id="Rectangle-path" fill="url(#linearGradient-1)" fill-rule="nonzero" transform="translate(612.884499, 228.389297) rotate(-82.110000) translate(-612.884499, -228.389297) " x="436.004499" y="-82.8557033" width="353.76" height="622.49"></rect>
+            <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" transform="translate(611.835784, 228.243305) rotate(7.890000) translate(-611.835784, -228.243305) " x="305.290784" y="56.1933048" width="613.09" height="344.1"></rect>
+            <g id="Group" opacity="0.3" transform="translate(299.000000, 31.000000)">
+                <rect id="f33a93cd-dff1-45ca-976d-3ca4de540e86" fill="#5BA69D" fill-rule="nonzero" transform="translate(313.039147, 196.651983) rotate(7.890000) translate(-313.039147, -196.651983) " x="19.6491475" y="39.6969834" width="586.78" height="313.91"></rect>
+                <g id="Clipped" transform="translate(130.000000, 90.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="7312e2fe-1465-434b-8399-0e3c35e3f2aa" transform="translate(313.039147, 196.121983) rotate(7.890000) translate(-313.039147, -196.121983) "></g>
+                    <polyline id="Shape" stroke="#FFFFFF" stroke-width="5" fill="#5BA69D" fill-rule="nonzero" mask="url(#mask-3)" points="-123.11 -94.22 112.8 296.84 256.31 316.73 506.87 171.06 309.08 -90.39 -41.48 275.45 -241.91 200.14 116.2 -114.68 408.19 337.78"></polyline>
+                </g>
+            </g>
+            <path d="M574.85,63.35 C570.69,93.35 508.98,156.09 508.98,156.09 C508.98,156.09 462.32,78.33 466.48,48.33 C468.960367,28.7943191 481.748308,12.0989215 499.963464,4.61539814 C518.178621,-2.8681252 539.010214,0.0150073056 554.508126,12.164484 C570.006038,24.3139607 577.778787,43.8549972 574.86,63.33 L574.85,63.35 Z" id="Shape" fill="url(#linearGradient-4)" fill-rule="nonzero"></path>
+            <path d="M571.29,64.3 C567.39,92.44 509.5,151.3 509.5,151.3 C509.5,151.3 465.73,78.36 469.63,50.22 C473.520846,22.1501276 499.430128,2.54915394 527.5,6.44 C555.569872,10.3308461 575.170846,36.2401276 571.28,64.31 L571.29,64.3 Z" id="Shape" fill="#5BA69D" fill-rule="nonzero"></path>
+            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(521.017035, 53.177548) rotate(-82.110000) translate(-521.017035, -53.177548) " cx="521.017035" cy="53.1775484" rx="25.72" ry="25.66"></ellipse>
+            <polygon id="Shape" fill="url(#linearGradient-5)" fill-rule="nonzero" points="0 214.51 0 240.22 0 724.06 734.81 724.06 734.81 240.22 734.81 214.51"></polygon>
+            <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="10.9" y="246.21" width="716.12" height="468.79"></rect>
+            <rect id="Rectangle-path" fill="#F5F5F5" fill-rule="nonzero" x="10.9" y="223.91" width="716.12" height="34.49"></rect>
+            <circle id="Oval" fill="#FF5252" fill-rule="nonzero" cx="38.15" cy="240.64" r="8.36"></circle>
+            <circle id="Oval" fill="#FFFF00" fill-rule="nonzero" cx="61.15" cy="240.64" r="8.36"></circle>
+            <circle id="Oval" fill="#69F0AE" fill-rule="nonzero" cx="84.14" cy="240.64" r="8.36"></circle>
+            <rect id="Rectangle-path" fill="#5BA69D" fill-rule="nonzero" opacity="0.5" x="301.81" y="371.55" width="131.7" height="14.11"></rect>
+            <rect id="Rectangle-path" fill="#E0E0E0" fill-rule="nonzero" x="206.7" y="432.18" width="144.24" height="14.11"></rect>
+            <rect id="Rectangle-path" fill="#E0E0E0" fill-rule="nonzero" transform="translate(456.510000, 439.235000) rotate(-180.000000) translate(-456.510000, -439.235000) " x="384.39" y="432.18" width="144.24" height="14.11"></rect>
+            <rect id="Rectangle-path" fill="#E0E0E0" fill-rule="nonzero" x="206.17" y="462.49" width="321.93" height="14.11"></rect>
+            <rect id="Rectangle-path" fill="#E0E0E0" fill-rule="nonzero" x="206.17" y="492.8" width="321.93" height="14.11"></rect>
+            <rect id="Rectangle-path" fill="url(#linearGradient-6)" fill-rule="nonzero" x="300.25" y="557.61" width="133.79" height="26.13"></rect>
+            <rect id="Rectangle-path" fill="#5BA69D" fill-rule="nonzero" x="301.29" y="559.98" width="131.7" height="21.38"></rect>
+        </g>
+    </g>
+</svg>
