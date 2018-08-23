@@ -44,11 +44,6 @@
 	}); 
 	
 	
-	//parallax hover tilt effect	
-	
-	$('.js-tilt').tilt({
-		glare: false
-	})
 	
 	
 	/* Parallax effect */
