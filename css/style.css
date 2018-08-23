@@ -1113,14 +1113,10 @@ mark{
 	position:relative;
 	width:100%;
 	margin:0 auto;
-}
-#owl-roadmap:before{
-	position:absolute;
-	width:100%;
-	content: '';
-	top: 17px;
-	left: 0;
-	height: 2px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: flex-start;
 }
 #owl-roadmap .item{
 	position:relative;
@@ -1130,11 +1126,14 @@ mark{
 	position:relative;
 	padding: 30px;
 	margin: 0 15px;
-	margin-top: 97px;
 	border-radius: 5px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 .roadmap-box h6{
 	text-align: center;
+	color: #5ba69d;
+	font-size: 24px;
+	font-weight: 500;
 }
 .roadmap-box p{
 	text-align: center;
@@ -1144,7 +1143,7 @@ mark{
 	text-align: center;
 	margin-bottom: 0;
 	color: #fff;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 500;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -1157,75 +1156,7 @@ mark{
 .roadmap-box p.plan span{
 	background-color: #f0f1f6 !important;
 }
-.roadmap-box:before{
-	position:absolute;
-	background-color: #fff;
-	width: 4px;
-	height: 80px;
-	top: -80px;
-	left: 50%;
-	margin-left: -2px;
-	content: '';
-	z-index: 1;
-}
-.roadmap-box.next-road:before{
-	background: linear-gradient(#999, #fff);
-}
-.item.dark .roadmap-box.next-road:before{
-	background: linear-gradient(#999, #0e0529) !important;
-}
-.roadmap-box:after{
-	position:absolute;
-	background-color: #fff;
-	border-radius: 50%;
-	border-width: 2px;
-	border-style: solid;
-	width: 30px;
-	height: 30px;
-	top: -94px;
-	left: 50%;
-	margin-left: -15px;
-	content: '';
-	z-index: 55;
-	background-image: url('../img/check.svg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: 14px 14px;
-}
-.item.blue .roadmap-box:after{
-	background-image: url('../img/check-green.svg');
-}
-.item.dark .roadmap-box:after{
-	background-color: #0e0529;
-}
-.item.blue .roadmap-box:after{
-	background-color: #4d82ff;
-}
-.item.blue-gradient .roadmap-box:after{
-	background-color: #2CBFC7;
-}
-.roadmap-box.next-road:after{
-	border-color: #999;
-	width: 20px;
-	height: 20px;
-	top: -89px;
-	margin-left: -10px;
-	background-image: none;
-}
-.roadmap-box.current-road:after{
-	width: 36px;
-	height: 36px;
-	top: -97px;
-	margin-left: -18px;
-	background-image: url('../img/cur-check.svg');
-	background-size: 22px 22px;
-}
-.item.blue .roadmap-box.current-road:after{
-	background-image: url('../img/cur-check-green.svg');
-}
-.item.blue .roadmap-box.next-road:after{
-	background-image: none;
-}
+
 .prev-roadmap,
 .next-roadmap{
 	position:absolute;
@@ -1423,6 +1354,7 @@ figure.vimeo a img, figure.youtube a img {
 	margin: 0 auto;
 	text-align: center;
 	display: flex;
+	flex-flow: row wrap;
 	align-items: center;
 	justify-content: center;
 }
