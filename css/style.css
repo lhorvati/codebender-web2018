@@ -24,9 +24,17 @@ h1, .h1 {
 }
 h2, .h2 {
 	font-size: 2.3rem;
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
 }
 h3, .h3 {
-	font-size: 2rem;
+	font-size: 1.7rem;
+	font-weight:500;
 }
 h4, .h4 {
 	font-size: 1.7rem;
@@ -666,19 +674,15 @@ mark{
 	transform: translateY(0);
 }
 .hero-center-wrap h1{
-	font-size: 65px;
-	line-height: 1.1;
-	font-weight: 700;
-}
-.hero-center-wrap h2{
 	font-size: 55px;
 	line-height: 1;
 	font-weight: 600;
+	margin-bottom: 0.8rem;
 }
 .hero-center-wrap p{
 	font-weight: 600;
 	font-size: 16px;
-	line-height: 1.45;
+	line-height: 1.8;
 	letter-spacing: 2px;
 }
 .hero-center-wrap.relative-on-lg p{
@@ -1063,7 +1067,7 @@ mark{
 	margin: 0 auto;
 	padding-top: 10px;
 }
-.title-wrap .back-title{
+.title-wrap .back-title {
 	position: absolute;
 	z-index: 1;
 	top: 0;

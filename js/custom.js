@@ -77,12 +77,12 @@
 			var to=$(this).parent().parent("section").next().attr("id");
 			$.mPageScroll2id("scrollTo",to);
 		});
-				
-	}); 
+
+	});
 	
-	
-	
-	
+
+
+
 	/* Parallax effect */
 			
 	$(window).enllax();
@@ -91,8 +91,11 @@
 	/* Scroll Animation */
 	
 	window.scrollReveal = new scrollReveal();
-	
-	
+
+
+
+
+
 	$(document).ready(function() {
 
 	
@@ -113,8 +116,6 @@
 			jQuery('html, body').animate({scrollTop: 0}, duration);
 			return false;
 		})
-
-
 
 
 
