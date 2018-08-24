@@ -1985,6 +1985,25 @@ input.btn.btn-primary{
 	.padding-bottom-big-hero {
 		padding-bottom: 110px;
 	}	
+
+
+
+	#owl-roadmap .item {
+		padding-bottom: 25px;
+	}
+	.container {
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+
+	.prefooter {
+		margin: 0 auto;
+		padding: 0;
+	}
+	.prefooter-col {
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -2003,9 +2022,6 @@ input.btn.btn-primary{
 	.modal-body h3{ 
 		font-size: 7vw;
 	}
-	.footer-list li{
-		width: 48%;
-	}
 	.hero-center-wrap h2{
 		font-size: 35px;
 	}
@@ -2020,43 +2036,6 @@ input.btn.btn-primary{
 	.hero-center-wrap h1{
 		font-size: 21px;
 	}
-	.hero-center-wrap .btn{
-		font-size: 12px;
-		padding: 8px 10px;
-		margin: 0 2px;
-		letter-spacing: 0;
-		margin-bottom: 5px;
-	}
-	.countdown{
-		padding: 20px;
-		border-radius: 5px;
-	}
-	.countdown li {
-		min-width: calc(48% - 10px);
-		margin-left: 5px;
-		margin-right: 5px;
-		margin-bottom: 5px;
-		text-transform: none;
-		font-size: 12px;
-		letter-spacing: 0;
-	}
-	.countdown li span {
-		font-size: 30px;
-		line-height: 1;
-		font-weight: 400;
-		margin-bottom: 5px;
-	}
-	.countdown p {
-		font-weight: 500;
-		font-size: 13px;
-		line-height: 1.55;
-		letter-spacing: 0;
-	}
-	.countdown p span {
-		padding: 3px 6px;
-		font-size: 13px;
-		border-radius: 10px;
-	}
 	.table-sale{
 		padding: 20px;
 	}
@@ -2066,18 +2045,14 @@ input.btn.btn-primary{
 	.hero-center-wrap h2{
 		font-size: 25px;
 	}
-	.countdown.gradient-ver{
-		max-width: 200px;
+	
+
+	.padding-top-bottom-big {
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
-	.countdown.gradient-ver li{
-		max-width: calc(50% - 20px);
-		width: calc(50% - 20px);
-	}
-	.countdown.gradient-ver li span{
-		font-size: 45px;
-		font-weight: 700;
-		text-shadow: 1px 4px 3px rgba(0,0,0,0.06);
-	}	
+
+
 }
 
 
