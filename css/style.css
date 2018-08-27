@@ -1466,6 +1466,14 @@ input.btn.btn-primary{
 }
 
 
+#dit ul {
+	margin: 20px auto;
+}
+#dit ul li {
+	line-height: 2;
+}
+
+
 
 
 
@@ -1527,7 +1535,9 @@ input.btn.btn-primary{
 }
 
 
-
+#about {
+	padding: 200px 0 100px 0;
+}
 
 
 
@@ -1719,7 +1729,8 @@ input.btn.btn-primary{
 
 
 
-	#register {
+	#register,
+	#about {
 		padding: 100px 0;
 	}
 
