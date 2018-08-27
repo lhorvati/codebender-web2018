@@ -107,7 +107,7 @@ input.btn.btn-primary,
 	background: linear-gradient(#5ba69d, #0e0529) !important;
 }
 .form-control{
-	background-color: rgba(91, 166, 157, .8);
+	background-color: rgba(91, 166, 157, .2);
 }
 .suscribe .form-control{
 	background-color: rgba(91, 166, 157, .2);
