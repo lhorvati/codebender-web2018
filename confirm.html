@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<title>Arduino IDE - Codebender - Confirm</title>
+	<meta name="description" content="Arduino IDE in the Cloud. Codebender includes a Arduino web editor so you can code, store and manage your Arduino sketches on the cloud, and even compile and flash them." />
+	<meta name="author" content="Codebender">
+	<meta name="keywords"  content="Arduino IDE, Arduino Integrated Development Environment, Arduino Software (IDE), Arduino web editor, Codebender" />
+	<meta property="og:title" content="Arduino Cloud IDE - Codebender" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://codebender.cc/" />
+	<meta property="og:image" content="" />
+	<meta property="og:image:width" content="470" />
+	<meta property="og:image:height" content="246" />
+	<meta property="og:site_name" content="Arduino IDE" />
+	<meta property="og:description" content="Arduino IDE in the Cloud. Codebender includes a Arduino web editor so you can code, store and manage your Arduino sketches on the cloud, and even compile and flash them." />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="https://twitter.com/codebender_cc" />
+	<meta name="twitter:domain" content="http://codebender.cc/" />
+	<meta name="twitter:title" content="Arduino Cloud IDE - Codebender" />
+	<meta name="twitter:description" content="Arduino IDE in the Cloud. Codebender includes a Arduino web editor so you can code, store and manage your Arduino sketches on the cloud, and even compile and flash them." />
+	<meta name="twitter:image" content="https://twitter.com/codebender_cc" />
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="theme-color" content="#ffffff"/>
+    <meta name="msapplication-navbutton-color" content="#ffffff"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff"/>
+
+	<!-- Web Fonts 
+	================================================== -->
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400&amp;subset=latin-ext" rel="stylesheet">
+	
+	<!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/colors/color-cb.css"/>
+			
+	<!-- Favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.ico">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5ba69d">
+	<meta name="msapplication-TileColor" content="#5ba69d">
+
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window,document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '216737015633457'); 
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" src="https://www.facebook.com/tr?id=216737015633457&ev=PageView &noscript=1"/>
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122221181-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+	
+		gtag('config', 'UA-122221181-1');
+	</script>
+	<!-- End Google Analytics -->
+	
+	
+</head>
+<body style="height: 100%; display: flex; flex-flow: column nowrap;">
+
+
+	<!-- Nav and Logo
+	================================================== -->
+	
+	<div id="menu-wrap" class="menu-back cbp-af-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light mx-lg-0">
+						<a class="navbar-brand" href="index.html"><img src="img/codebender-logo.svg" alt="Codebender Logo"></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon">
+								<span class="menu-icon__line menu-icon__line-left"></span>
+								<span class="menu-icon__line"></span>
+								<span class="menu-icon__line menu-icon__line-right"></span>
+							</span>
+						</button>
+
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item">
+									<a class="nav-link" href="index.html#features" data-ps2id-offset="120">Features</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="index.html#how">How it Works</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="http://blog.codebender.cc/" target="_blank">Blog</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="about.html">About us</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="login.html">Sign in</a>
+								</li>
+								<li class="nav-item mt-2">
+									<a class="btn btn-primary" href="register.html" role="button"><span>Sign Up</span></a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	
+	<div class="section padding-top-bottom-big" id="confirm">
+		<div class="background-parallax" style="background-image: url('img/parallax-4.jpg')"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="title-wrap text-center">
+						<h2>
+							<div class="back-title">Sign up</div>
+						</h2>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="container">
+
+			<div class="message">
+				<p>An email has been sent to {{ user@gmail.com }}. It contains an activation link <b>you must click to activate your account</b>.</p>
+				<p>You should receive the activation email within the next minutes. If you don't please check the spam folder of your email account.</p>
+				<p>If it's not there either, try the <b>Forgot password</b> link in the login form found in the homepage. This should send you another email with a link that will reset your password and enable your account when used.</p>
+			</div>
+
+
+
+		</div>
+	</div>
+
+
+	<div class="section padding-top-big" style="margin-top: auto;">
+		<div class="background-parallax" style="background-image: url('img/parallax-5.jpg')"></div>
+		<div class="container padding-bottom-big">
+			<div class="row justify-content-between">
+				<div class="col-lg-4 prefooter-col">
+					<h6 class="text-white mb-4">Stay tuned:</h6>
+					<div class="suscribe">
+						<input class="form-control text-left" placeholder="Enter your email" type="text" name="name" />
+						<button type="submit" class="btn btn-primary m-0"><span>subscribe</span></button>
+					</div>
+					<p class="text-left text-white mb-0"><small>* we promise that we won´t spam you, never.</small></p>
+				</div>
+				<div class="col-lg-7 row prefooter">
+					<div class="col-md-8 prefooter-col">
+						<h6 class="text-white mb-4">Products</h6>
+						<ul class="footer-list">
+							<li class="text-left"><a href="https://edu.codebender.cc/" target="_blank">Arduino IDE for Education</a></li>
+							<li class="text-left"><a href="https://blocks.codebender.cc/" target="_blank">Blockly Arduino IDE</a></li>
+							<li class="text-left"><a href="https://codebender.cc/" target="_blank">Arduino IDE</a></li>
+							<li class="text-left"><a href="https://codeanywhere.com/" target="_blank">Web IDE</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 prefooter-col">
+						<h6 class="text-white mb-4">See more</h6>
+						<ul class="footer-list">
+							<li class="text-left"><a href="http://blog.codebender.cc/">Our Blog</a></li>
+							<li class="text-left"><a href="https://codebender.cc/static/about">About us</a></li>
+							<li class="text-left"><a href="https://github.com/codebendercc/">Open Source</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section py-4 background-dark-blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 footer text-center text-lg-left">
+						<p>Copyright © 2018, <a href="https://codebender.cc">Codebender</a></p>
+					</div>
+					<div class="col-lg-6 footer mt-4 mr-auto mt-lg-0 mr-lg-0 text-center text-lg-right">
+						<a class="app-btn mx-2 mr-lg-3" href="https://twitter.com/codebender_cc" target="_blank"><i class="fa fa-twitter"></i></a>
+						<a class="app-btn mx-2 mr-lg-3" href="https://www.linkedin.com/company/codebender/" target="_blank"><i class="fa fa-linkedin"></i></a>
+						<a class="app-btn mx-2 mr-lg-3" href="https://www.facebook.com/codebender.cc/" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a class="app-btn mx-2 mr-lg-3" href="https://github.com/codebendercc/" target="_blank"><i class="fa fa-git"></i></a>
+						<a class="app-btn mx-2 mr-lg-0" href="mailto:support@codebender.cc" target="_blank"><i class="fa fa-paper-plane"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	
+	<!-- JAVASCRIPT
+    ================================================== -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+<!-- End Document
+================================================== -->
+</body>
+</html>
