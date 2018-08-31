@@ -1,0 +1,444 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<title>Edu - Codebender</title>
+	<meta name="description" content="Arduino IDE in the Cloud. Codebender includes a Arduino web editor so you can code, store and manage your Arduino sketches on the cloud, and even compile and flash them." />
+	<meta name="author" content="Codebender">
+	<meta name="keywords"  content="Arduino IDE, Arduino Integrated Development Environment, Arduino Software (IDE), Arduino web editor, Codebender" />
+	<meta property="og:title" content="Arduino Cloud IDE - Codebender" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://codebender.cc/" />
+	<meta property="og:image" content="" />
+	<meta property="og:image:width" content="470" />
+	<meta property="og:image:height" content="246" />
+	<meta property="og:site_name" content="Arduino IDE" />
+	<meta property="og:description" content="Arduino IDE in the Cloud. Codebender includes a Arduino web editor so you can code, store and manage your Arduino sketches on the cloud, and even compile and flash them." />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="https://twitter.com/codebender_cc" />
+	<meta name="twitter:domain" content="http://codebender.cc/" />
+	<meta name="twitter:title" content="Arduino Cloud IDE - Codebender" />
+	<meta name="twitter:description" content="Arduino IDE in the Cloud. Codebender includes a Arduino web editor so you can code, store and manage your Arduino sketches on the cloud, and even compile and flash them." />
+	<meta name="twitter:image" content="https://twitter.com/codebender_cc" />
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="theme-color" content="#ffffff"/>
+    <meta name="msapplication-navbutton-color" content="#ffffff"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff"/>
+
+	<!-- Web Fonts 
+	================================================== -->
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i" rel="stylesheet"/>	
+	
+	<!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/colors/color-cb-o.css"/>
+			
+	<!-- Favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.ico">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#color-pr">
+	<meta name="msapplication-TileColor" content="#color-pr">
+
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window,document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '216737015633457'); 
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" src="https://www.facebook.com/tr?id=216737015633457&ev=PageView &noscript=1"/>
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122221181-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+	
+		gtag('config', 'UA-122221181-1');
+	</script>
+	<!-- End Google Analytics -->
+	
+	
+</head>
+<body>
+
+
+
+	<!-- Nav and Logo
+	================================================== -->
+	<div id="menu-wrap" class="menu-back cbp-af-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light mx-lg-0">
+						<a class="navbar-brand" href="index.html"><img src="img/codebender-logo.svg" alt="Codebender Logo"></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon">
+								<span class="menu-icon__line menu-icon__line-left"></span>
+								<span class="menu-icon__line"></span>
+								<span class="menu-icon__line menu-icon__line-right"></span>
+							</span>
+						</button>
+
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item">
+									<a class="nav-link" href="#features">Features</a>
+								</li>
+								<li class="nav-item mt-2">
+									<a class="btn btn-primary" href="#dit"><span>Subscribe</span></a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<!-- Hero Section
+	================================================== -->
+	<div class="section full-height height-auto-lg hide-over background-light-orange">
+		<div class="hero-center-wrap relative-on-lg">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 text-center text-lg-left parallax-fade-top align-self-center z-bigger">
+						<h1>Codebender: <span class="color-pr">Edu</span></h1>
+						<p class="mt-3 mb-4 pb-3 font-weight-normal">Arduino programming made fun</p>
+						<a class="btn btn-primary ml-lg-0" href="https://codebender.cc/how_it_works" target="_blank" role="button" style="background-color: rgb(0, 0, 0) !important;"><span>Demo</span></a>
+						<a class="btn btn-primary" href="register.html" target="_blank"><span>Sign Up</span></a>
+					</div>
+					<div class="col-lg-8 mt-5 mt-lg-0">
+						<div class="img-wrap header-img">
+							<div class="video-section video-shadow">
+								<figure class="vimeo" style="padding-bottom: 68%"> 
+									<div style="padding:70% 0 0 0;position:relative;"><iframe src="https://edu.codebender.cc/class_demo" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allowTransparency="true"></iframe></div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ocean">
+			<div class="wave"></div>
+			<div class="wave"></div>
+		</div>
+		<div id="particles-js" class="min-height"></div>
+	</div>
+
+
+	<!-- Features Section
+	================================================== -->
+	<div class="section padding-top-bottom-big background-white" id="features">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 ">
+					<div class="title-wrap text-center">
+						<h2>
+							<div class="back-title">Features</div>
+						</h2>
+						<h3>We help you write and share your code</h3>
+					</div>
+					<p class="text-center" style="max-width: 500px; margin: 0 auto;">Codebender's features help you code faster, get things done, and move on to other cool stuff.</p>
+				</div>
+			</div>
+			
+			<div class="row padding-top-bottom-small">
+				<div class="col-md-6 align-self-center">
+					<h3>Arduino Language</h3>
+					<p><span class="color-pr">codebender:edu</span> allows you to write, test, and compile your Arduino code, and program your Arduino board from your browser.</p>
+					<p>Now it's easy to get kids into Arduino programming.</p>
+				</div>
+				<div class="col-md-5 offset-md-1 order-first order-md-last mb-4 mb-md-0">
+					<div class="img-wrap">
+						<img src="img/img1.svg" alt="Codebender - Extensive Board Support">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 my-5"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 mb-4 mb-md-0">
+					<div class="img-wrap">
+						<img src="img/img2.svg" alt="Codebender - The Power of Cloud">
+					</div>
+				</div>
+				<div class="col-md-6 offset-md-1 align-self-center">
+					<h3>No installation</h3>
+					<p><span class="color-pr">codebender:edu</span> compiles your projects on the cloud, and programs your boards straight from your browser.</p>
+					<p>Now you don't have to waste time setting up computers, so you can focus on teaching.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 my-5"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 align-self-center">
+					<h3>Classroom ready</h3>
+					<p>We give you a unique URL that you can share with your class or workshop, so you only need one account per classroom.</p>
+					<p>Simply register, copy your URL, and share it with your class.</p>
+				</div>
+				<div class="col-md-5 offset-md-1 order-first order-md-last mb-4 mb-md-0">
+					<div class="img-wrap">
+						<img src="img/img3.svg" alt="Codebender DIY">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 mb-4 mb-md-0">
+					<div class="img-wrap">
+						<img src="img/img2.svg" alt="Codebender - The Power of Cloud">
+					</div>
+				</div>
+				<div class="col-md-6 offset-md-1 align-self-center">
+					<h3>Works with chromebooks</h3>
+					<p>Just add our browser plugin and you are ready to go. We support Firefox & Chrome, and all the major Operating Systems.</p>
+					<p>It even works with Chromebooks!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Comparison Section
+	================================================== -->
+	<div class="section padding-top-bottom-big" id="comparison">
+		<div class="background-parallax" style="background-image: url('img/parallax-1.jpg')"></div>
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-12 ">
+					<div class="title-wrap text-center">
+						<h2>
+							<div class="back-title">Comparison</div>
+						</h2>
+						<h3>Comparison</h3>
+					</div>
+					<div class="text-center" style="overflow: auto;">
+						<table class="comparison-table">
+							<tr>
+								<td></td>
+								<td>Arduino IDE</td>
+								<td>Chromeduino</td>
+								<td>Codebender</td>
+								<td>Codebender K12</td>
+							</tr>
+							<tr>
+								<td>Chromebook Support</td>
+								<td><i class="fas fa-times-circle"></i></td>
+								<td><i class="fas fa-check-circle"></i></td>
+								<td><i class="fas fa-check-circle"></i></td>
+								<td><i class="fas fa-check-circle"></i></td>
+							</tr>
+							<tr>
+								<td>Supports Arduino Libraries</td>
+								<td><i class="fas fa-check-circle"></i></td>
+								<td><i class="fas fa-times-circle"></i></td>
+								<td><i class="fas fa-check-circle"></i></td>
+								<td><i class="fas fa-check-circle"></i></td>
+							</tr>
+							<tr>
+								<td>School-ready<br> (i.e. COPPA, FERPA)</td>
+								<td><i class="fas fa-times-circle"></i></td>
+								<td><i class="fas fa-times-circle"></i></td>
+								<td><i class="fas fa-times-circle"></i></td>
+								<td><i class="fas fa-check-circle"></i></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Subscribe Section
+	================================================== -->
+	<div class="section padding-top-big padding-bottom-big">
+		<div class="title-wrap text-center">
+			<h2>
+				<div class="back-title">Available plans</div>
+			</h2>
+			<h3>Available plans</h3>
+		</div>
+		
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-sm-8">
+						<div class="table-sale background-grey future-price" style="min-height: 510px;">
+							<h4 class="text-center" style="font-size: 50px; margin-bottom: 20px;">$10</h4>
+							<p class="text-center">per month</p>
+							<div class="table-line mt-4 mb-4"></div>
+							<p class="text-center">Designed for 20 students</p>
+							<div class="table-line mt-4 mb-4"></div>
+							<ul style="text-align: left;">
+								<li><p>Standard boards support (Uno, Leonardo, Mega)</p></li>
+								<li><p>40 compilations per min</p></li>
+								<li><p>$0.5 / student</p></li>
+							</ul>
+							<a class="btn btn-primary table-ver mt-5" href="#" role="button"><span>Buy Now</span></a>
+							<div class="table-ver mt-3">
+								<a href="#" role="button" style="color: #f98732;"><span>Use coupon</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-8">
+						<div class="table-sale background-color table-shadow" style="min-height: 530px;">
+							<h4 class="text-center" style="font-size: 50px; margin-bottom: 20px;">$20</h4>
+							<p class="text-center">per month</p>
+							<div class="table-line mt-4 mb-4"></div>
+							<p class="text-center">Designed for 50 students</p>
+							<div class="table-line mt-4 mb-4"></div>
+							<ul style="text-align: left;">
+								<li><p>96 supported boards</p></li>
+								<li><p>100 compilations per min</p></li>
+								<li><p>$0.4 / student</p></li>
+							</ul>
+							<a class="btn btn-primary table-ver mt-5 js-tilt" href="#" role="button"><span>Buy Now</span></a>
+							<div class="table-ver mt-3">
+								<a href="#" role="button" style="color: #fff;"><span>Use coupon</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-8">
+						<div class="table-sale background-grey future-price" style="min-height: 510px;">
+							<h4 class="text-center" style="font-size: 50px; margin-bottom: 20px;">$50</h4>
+							<p class="text-center">per month</p>
+							<div class="table-line mt-4 mb-4"></div>
+							<p class="text-center">Designed for school licensing</p>
+							<div class="table-line mt-4 mb-4"></div>
+							<ul style="text-align: left;">
+								<li><p>96 supported boards</p></li>
+								<li><p>Unlimited compilations</p></li>
+							</ul>
+							<a class="btn btn-primary table-ver mt-5 js-tilt" href="#" role="button"><span>Buy Now</span></a>
+							<div class="table-ver mt-3">
+								<a href="#" role="button" style="color: #f98732;"><span>Use coupon</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+	<!-- Footer Section
+	================================================== -->
+	<div class="section padding-top-big">
+		<div class="background-parallax" style="background-image: url('img/parallax-5.jpg')"></div>
+		<div class="container padding-bottom-big">
+			<div class="row justify-content-between">
+				<div class="col-lg-4 prefooter-col">
+					<h6 class="text-white mb-4">Stay tuned:</h6>
+					<div class="suscribe">
+						<input class="form-control text-left" placeholder="Enter your email" type="text" name="name" />
+						<button type="submit" class="btn btn-primary m-0"><span>subscribe</span></button>
+					</div>
+					<p class="text-left text-white mb-0"><small>* we promise that we won´t spam you, never.</small></p>
+				</div>
+				<div class="col-lg-7 row prefooter">
+					<div class="col-md-8 prefooter-col">
+						<h6 class="text-white mb-4">Products</h6>
+						<ul class="footer-list">
+							<li class="text-left"><a href="https://edu.codebender.cc/" target="_blank">Arduino IDE for Education</a></li>
+							<li class="text-left"><a href="https://blocks.codebender.cc/" target="_blank">Blockly Arduino IDE</a></li>
+							<li class="text-left"><a href="https://codebender.cc/" target="_blank">Arduino IDE</a></li>
+							<li class="text-left"><a href="https://codeanywhere.com/" target="_blank">Web IDE</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 prefooter-col">
+						<h6 class="text-white mb-4">See more</h6>
+						<ul class="footer-list">
+							<li class="text-left"><a href="http://blog.codebender.cc/">Our Blog</a></li>
+							<li class="text-left"><a href="https://codebender.cc/static/about">About us</a></li>
+							<li class="text-left"><a href="https://github.com/codebendercc/">Open Source</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section py-4 background-dark-blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 footer text-center text-lg-left">
+						<p>Copyright © 2018, <a href="https://codebender.cc">Codebender</a></p>
+					</div>
+					<div class="col-lg-6 footer mt-4 mr-auto mt-lg-0 mr-lg-0 text-center text-lg-right">
+						<a class="app-btn mx-2 mr-lg-3" href="https://twitter.com/codebender_cc" target="_blank"><i class="fa fa-twitter"></i></a>
+						<a class="app-btn mx-2 mr-lg-3" href="https://www.linkedin.com/company/codebender/" target="_blank"><i class="fa fa-linkedin"></i></a>
+						<a class="app-btn mx-2 mr-lg-3" href="https://www.facebook.com/codebender.cc/" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a class="app-btn mx-2 mr-lg-3" href="https://github.com/codebendercc/" target="_blank"><i class="fa fa-git"></i></a>
+						<a class="app-btn mx-2 mr-lg-0" href="mailto:support@codebender.cc" target="_blank"><i class="fa fa-paper-plane"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	
+	<!-- JAVASCRIPT
+    ================================================== -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+	
+<!-- End Document
+================================================== -->
+</body>
+</html>
