@@ -204,10 +204,6 @@ mark{
 .background-light-gray {
 	background-color: rgba(177, 177, 177, 0.3);
 }
-.background-light-orange {
-	background-color: rgba(249, 135, 50, 0.1);
-}
-
 .background-gradient-dark{
 	background: linear-gradient(#0e0529, #1e0b56);
 }
@@ -310,7 +306,7 @@ mark{
 	margin:0 auto;
 	top:0;
 	left:0;
-	background: rgba(254, 243, 235, 0.8);
+	background: rgba(235, 232, 253, .8);
 }
 .menu-back{
 	background-color: rgba(250,250,250,0);
@@ -776,69 +772,6 @@ mark{
 	height: 100%;
 	opacity: 0.25;
 }
-
-
-
-
-.table-sale{
-	position: relative;
-	padding: 40px;
-	margin: 0 auto;
-	text-align: center;
-	border-radius: 10px;
-}
-.table-sale p{
-	color: #999;
-	margin-bottom: 0;
-}
-.table-sale.background-color p{
-	color: #fff;
-}
-.table-sale.future-price p{
-	color: #111;
-}
-.table-sale p span{
-	background-color: #999;
-	color: #fff;
-	border-radius: 15px;
-	padding: 6px 15px;
-	font-size: 15px;
-	font-weight: 500;
-}
-.table-sale .table-line{
-	position: relative;
-	width: 100%;
-	border-bottom: 1px solid #999;
-	opacity: 0.4;
-}
-.table-sale.background-color .table-line{
-	border-color: #fff;
-}
-.table-sale h4{
-	color: #999;
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 25px;
-	line-height: 25px;
-}
-.table-sale.background-color h4{
-	color: #fff;
-}
-.table-sale .btn.disabled{
-	color: #fff;
-	background-color: #999;
-}
-.table-sale.future-price .btn.disabled{
-	color: #212121;
-	background-color: #f0f1f6;
-}
-.btn-primary.table-ver,
-.btn-primary.table-ver:hover,
-.btn-primary.table-ver:active,
-.btn-primary.table-ver:focus{
-	background-color: #fff !important;
-}
-
 
 
 
@@ -1619,6 +1552,69 @@ input.btn.btn-primary{
 
 
 
+
+
+.table-sale{
+	position: relative;
+	padding: 40px;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 10px;
+}
+.table-sale p{
+	color: #999;
+	margin-bottom: 0;
+}
+.table-sale.background-color p{
+	color: #fff;
+}
+.table-sale.future-price p{
+	color: #111;
+}
+.table-sale p span{
+	background-color: #999;
+	color: #fff;
+	border-radius: 15px;
+	padding: 6px 15px;
+	font-size: 15px;
+	font-weight: 500;
+}
+.table-sale .table-line{
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #999;
+	opacity: 0.4;
+}
+.table-sale.background-color .table-line{
+	border-color: #fff;
+}
+.table-sale h4{
+	color: #999;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 25px;
+}
+.table-sale.background-color h4{
+	color: #fff;
+}
+.table-sale .btn.disabled{
+	color: #fff;
+	background-color: #999;
+}
+.table-sale.future-price .btn.disabled{
+	color: #212121;
+	background-color: #f0f1f6;
+}
+.btn-primary.table-ver,
+.btn-primary.table-ver:hover,
+.btn-primary.table-ver:active,
+.btn-primary.table-ver:focus{
+	background-color: #fff !important;
+}
+
+
+
 .comparison-table {
 	width: 100%;
 }
@@ -1643,6 +1639,8 @@ input.btn.btn-primary{
 .comparison-table td i.fa-times-circle {
 	color: #e48383;
 }
+
+
 
 
 /* #Media
