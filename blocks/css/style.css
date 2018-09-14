@@ -248,6 +248,7 @@ mark{
 .img-wrap img {
 	width:100%;
 	display:block;
+	max-height: 320px
 }
 .z-bigger  {
 	z-index:10;
